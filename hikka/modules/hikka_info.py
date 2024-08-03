@@ -35,7 +35,7 @@ class HikkaInfoMod(loader.Module):
             ),
             loader.ConfigValue(
                 "banner_url",
-                "https://github.com/hikariatama/assets/raw/master/hikka_banner.mp4",
+                "https://media1.tenor.com/m/wZjE5IJqdxsAAAAd/hsr-honkai.mp4",
                 lambda: self.strings("_cfg_banner"),
                 validator=loader.validators.Link(),
             ),
@@ -78,7 +78,7 @@ class HikkaInfoMod(loader.Module):
 
         return (
             (
-                "<b>🌘 Hikka</b>\n"
+                "<b>hoshino тян</b>\n"
                 if "hikka" not in self.config["custom_message"].lower()
                 else ""
             )
