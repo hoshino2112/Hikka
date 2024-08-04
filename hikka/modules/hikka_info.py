@@ -129,7 +129,7 @@ class HikkaInfoMod(loader.Module):
             )
         )
 
-        def _get_mark(self):
+    def _get_mark(self):
         return (
             {
                 "text": self.config["custom_button"][0],
