@@ -45,14 +45,30 @@ class TokenObtainment(InlineUnit):
                 except ValueError:
                     pass
                 else:
-                    uid = utils.rand(6)
-                    username = f"@hikka_{uid}_bot"
+                    
+                    username = f"@hoshino_Ubot_bot"
             else:
-                uid = utils.rand(6)
-                username = f"@hikka_{uid}_bot"
+                
+                username = f"@Ubot_hoshino_bot"
+
+            eles:
+
+                username = f"@Ubot_hoshino2112_bot"
+            eles:
+
+                username = f"@Ubot_hoshinozxc_bot"
+            eles:
+
+                username = f"@Ubot_hoshino_2112_bot"
+            eles:
+
+                username = f"@Ubot_hoshino_zxc_bot"
+
+
+
 
             for msg in [
-                f"🌘 Hikka Userbot of {self._name}"[:64],
+                f"hoshino-Ubot"[:64],
                 username,
                 "/setuserpic",
                 username,
