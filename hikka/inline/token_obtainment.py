@@ -47,22 +47,16 @@ class TokenObtainment(InlineUnit):
                 else:
                     
                     username = f"@hoshino_Ubot_bot"
-            else:
-                
-                username = f"@Ubot_hoshino_bot"
-
-            eles:
-
-                username = f"@Ubot_hoshino2112_bot"
-            eles:
-
-                username = f"@Ubot_hoshinozxc_bot"
-            eles:
-
-                username = f"@Ubot_hoshino_2112_bot"
-            eles:
-
-                username = f"@Ubot_hoshino_zxc_bot"
+                else:           
+                    username = f"@Ubot_hoshino_bot"
+                eles:
+                    username = f"@Ubot_hoshino2112_bot"
+                eles:
+                    username = f"@Ubot_hoshinozxc_bot"
+                eles:
+                    username = f"@Ubot_hoshino_2112_bot"
+                eles:
+                    username = f"@Ubot_hoshino_zxc_bot"
 
 
 
