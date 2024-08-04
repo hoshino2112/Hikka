@@ -132,10 +132,10 @@ class HikkaInfoMod(loader.Module):
     def _get_mark(self):
         return (
             {
-                "text": self.config[""][0],
-                "url": self.config[""][1],
+                "text": self.config["custom_button"][0],
+                "url": self.config["custom_button"][1],
             }
-            if self.config["custom_button"]
+            if self.config[]
             else None
         )
 
