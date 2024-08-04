@@ -24,15 +24,7 @@ class HikkaInfoMod(loader.Module):
                 "custom_message",
                 doc=lambda: self.strings("_cfg_cst_msg"),
             ),
-            loader.ConfigValue(
-                "custom_button",
-                ["🌘 Support chat"],
-                lambda: self.strings("_cfg_cst_btn"),
-                validator=loader.validators.Union(
-                    loader.validators.Series(fixed_len=2),
-                    loader.validators.NoneType(),
-                ),
-            ),
+            
             loader.ConfigValue(
                 "banner_url",
                 "https://media1.tenor.com/m/wZjE5IJqdxsAAAAd/hsr-honkai.mp4",
