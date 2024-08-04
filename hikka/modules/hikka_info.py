@@ -129,6 +129,17 @@ class HikkaInfoMod(loader.Module):
             )
         )
 
+        def _get_mark(self):
+        return (
+            {
+                "text": self.config["custom_button"][0],
+                "url": self.config["custom_button"][1],
+            }
+            if self.config["custom_button"]
+            else None
+        )
+
+
     @loader.inline_handler(
         thumb_url="https://img.icons8.com/external-others-inmotus-design/344/external-Moon-round-icons-others-inmotus-design-2.png"
     )
